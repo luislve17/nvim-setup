@@ -3,6 +3,7 @@
 ## Requirements
 1. [Neovim `v0.8.x`](https://github.com/neovim/neovim/releases/tag/v0.8.2) or higher
 2. [Packer](https://github.com/wbthomason/packer.nvim#quickstart) plugin manager
+3. [Ripgrep](https://github.com/BurntSushi/ripgrep#installation) for telescope.nvim
 
 ## Installation
 1. Copy this repo's content into `.config/nvim/` folder. Usually, after neovim installation, you would need to manually create this directory.
