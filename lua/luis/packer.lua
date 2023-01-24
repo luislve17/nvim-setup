@@ -62,4 +62,5 @@ return require('packer').startup(function(use)
     -- Other
     use( 'tpope/vim-surround' )
     use( 'nathanaelkane/vim-indent-guides' )
+    use( 'kamykn/spelunker.vim' )
 end)
