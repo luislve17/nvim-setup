@@ -54,6 +54,7 @@ return require('packer').startup(function(use)
 
     -- Git integratios
     use( 'mhinz/vim-signify' )
+    use( 'APZelos/blamer.nvim' )
 
     -- Tabs in buffers feedback
     use( 'nvim-tree/nvim-web-devicons')
