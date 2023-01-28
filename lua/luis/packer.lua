@@ -7,11 +7,13 @@ return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 
+	-- telescope
 	use {
 		'nvim-telescope/telescope.nvim', tag = '0.1.1',
-		-- or                            , branch = '0.1.x',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
+
+    -- colorscheme
 	use({
 		'catppuccin/nvim',
 		as = 'catppuccin',
@@ -19,7 +21,10 @@ return require('packer').startup(function(use)
 			vim.cmd('colorscheme catppuccin')
 		end
 	})
+    -- treesitter
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+
+    -- lsp
 	use {
 		'VonHeikemen/lsp-zero.nvim',
 		branch = 'v1.x',
@@ -55,6 +60,12 @@ return require('packer').startup(function(use)
     -- Git integratios
     use( 'mhinz/vim-signify' )
     use( 'APZelos/blamer.nvim' )
+    use {
+        'tanvirtin/vgit.nvim',
+        requires = {
+            'nvim-lua/plenary.nvim'
+        }
+    }
 
     -- Tabs in buffers feedback
     use( 'nvim-tree/nvim-web-devicons')
@@ -64,4 +75,5 @@ return require('packer').startup(function(use)
     use( 'tpope/vim-surround' )
     use( 'nathanaelkane/vim-indent-guides' )
     use( 'kamykn/spelunker.vim' )
+    -- test
 end)
