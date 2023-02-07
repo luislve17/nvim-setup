@@ -13,4 +13,5 @@ vim.opt.so=5 -- Scroll off margin
 -- Keymaps
 vim.keymap.set("n", "<A-left>", "<Cmd>BufferPrevious<CR>")
 vim.keymap.set("n", "<A-right>", "<Cmd>BufferNext<CR>")
-
+vim.keymap.set('n', '<A-S-left>', '<Cmd>BufferMovePrevious<CR>', opts)
+vim.keymap.set('n', '<A-S-right>', '<Cmd>BufferMoveNext<CR>', opts)
