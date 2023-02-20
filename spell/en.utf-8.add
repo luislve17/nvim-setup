@@ -147,3 +147,7 @@ remotestart
 clearchargingprofile
 datetimes
 fromisoformat
+dockerfile
+estatua
+backend
+workdir
