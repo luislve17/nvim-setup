@@ -58,7 +58,7 @@ return require('packer').startup(function(use)
 	}
 
     -- Git integratios
-    use( 'mhinz/vim-signify' )
+    -- use( 'mhinz/vim-signify' )
     use( 'APZelos/blamer.nvim' )
     use {
         'tanvirtin/vgit.nvim',
@@ -75,5 +75,4 @@ return require('packer').startup(function(use)
     use( 'tpope/vim-surround' )
     use( 'nathanaelkane/vim-indent-guides' )
     use( 'kamykn/spelunker.vim' )
-    -- test
 end)
