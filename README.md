@@ -16,4 +16,5 @@ mkdir ~/.config/nvim/
 3. Run `:so` and `PackerSync`
 
 ## Reference
-Good installation guide for a similar setup: [ThePrimeagen 0 to LSP video](https://youtu.be/w7i4amO_zaE)
+1. Good installation guide for a similar setup: [ThePrimeagen 0 to LSP video](https://youtu.be/w7i4amO_zaE)
+2. Since some LSP servers depend on recent nodeJS versions, here is an [installation guide](https://techviewleo.com/how-to-install-node-js-18-lts-on-ubuntu/)

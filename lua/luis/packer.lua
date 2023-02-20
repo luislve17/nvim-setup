@@ -47,9 +47,6 @@ return require('packer').startup(function(use)
 			{'rafamadriz/friendly-snippets'}, -- Optional
 		}
 	}
-	-- vim airline
-	use('vim-airline/vim-airline')
-	use('vim-airline/vim-airline-themes')
 
 	-- chadtree
 	use {
@@ -68,11 +65,13 @@ return require('packer').startup(function(use)
     }
 
     -- Tabs in buffers feedback
-    use( 'nvim-tree/nvim-web-devicons')
     use( 'romgrk/barbar.nvim')
 
     -- Other
+    use( 'nvim-tree/nvim-web-devicons')
     use( 'tpope/vim-surround' )
     use( 'nathanaelkane/vim-indent-guides' )
     use( 'kamykn/spelunker.vim' )
+    use( 'beauwilliams/statusline.lua' )
+    use( "arnamak/stay-centered.nvim" )
 end)

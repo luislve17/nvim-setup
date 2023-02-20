@@ -147,6 +147,7 @@ remotestart
 clearchargingprofile
 datetimes
 fromisoformat
+<<<<<<< HEAD
 dockerfile
 estatua
 backend
@@ -155,3 +156,33 @@ hostname
 pgdata
 healthcheck
 isready
+=======
+dataclass
+pyright
+langserver
+filetypes
+startpath
+pytz
+dockerfile
+dockerfiles
+redisinsight
+redislabs
+hostname
+pgdatabase
+pghost
+pgpassword
+pguser
+mher
+docgen
+tsconfig
+entrypoint
+initdb
+pgdata
+timescaledb
+cicd
+coveragerc
+cronjob
+plik
+rootgg
+plikd
+>>>>>>> dfeba7a55600b1a80b760d3c9ad4b845a0593349
